@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    body{
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: #ccffff;
+    }
+    button{
+      margin-right: 20px;
+    }
+    h3{
+      margin: 30px auto;
+    }
+    .biru-muda{
+      background-color: rgb(55,174,255);
+    }
+    .tom-class{
+      background-color: lightgreen;
+    }
+    .kotak.merah{
+      width: 40px;
+      height: 40px;
+      background-color: red;
+      margin: auto;
+      border-radius: 20%;
+    }
+      .kotak.hijau{
+      width: 40px;
+      height: 40px;
+      background-color: green;
+      margin: auto;
+      border-radius: 20%;
+    }
+  .kotak.biru{
+      width: 40px;
+      height: 40px;
+      background-color: blue;
+      margin: auto;
+      border-radius: 20%;
+    }
+  </style>
+</head>
+<body>
+  <h3 style="color: rgb(40,23,71);">Bermain Dengan Warna </h3>
+  <button type="button">Ubah Warna</button>
+  <p></p>
+  <br><br>
+  <h3 class="lol"style="color: rgb(0,19,47);">MENGGUNAKAN RANGE LOL</h3>
+  <div class="kotak merah"></div>
+  <input type="range" name="Merah" max="255" min="0">
+  <p class="p2"></p>
+  <div class="kotak hijau"></div>
+  <input type="range" name="Hijau" max="255" min="0">
+  <p class="p2"></p>
+  <div class="kotak biru"></div>
+  <input type="range" name="Biru" max="255" min="0">
+  <p class="p2"></p>
+  
+  <p class="warna"></p>
+  
+  <script src="script.js" ></script>
+</body>
+</html>

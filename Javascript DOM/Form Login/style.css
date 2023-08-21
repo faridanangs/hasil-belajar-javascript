@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+}
+form{
+  display: flex;
+  flex: 1 1 20rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.login {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  margin: .2rem;
+  
+  padding-left: 2rem;
+  
+}
+.login input {
+  background: none;
+  margin-left: 2rem;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+}

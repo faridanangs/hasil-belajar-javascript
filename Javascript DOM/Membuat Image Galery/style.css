@@ -1,0 +1,37 @@
+* {
+  padding: 0; margin: 0; line-height: 0;
+}
+body{
+  background-color: #ccc;
+}
+.container{
+  width: 600px;
+  margin: 15px auto;
+  border: 5px solid white;
+  overflow: auto;
+}
+
+
+  
+.kotak{
+  width: 200px;
+  float: left;
+  box-sizing: border-box;
+  border: 5px #ccc solid;
+}
+.kotak:hover{
+  opacity: .5;
+  cursor: pointer;
+}
+
+@keyframes kdip{
+  to{
+    opacity: 1;
+    
+  }
+}
+
+.fuid {
+  opacity: 0;
+  animation: kdip 2 forwards;
+}
